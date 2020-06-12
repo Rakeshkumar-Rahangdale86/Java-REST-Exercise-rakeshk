@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">AllRegression</th></tr>
+<tr><td><a href="#t0">APITest</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">4</td><td class="num">5,327</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AllRegression</th></tr></tbody><tbody id="t0"><tr><th colspan="4">APITest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">tests.TestClass</td><td><a href="#m0">createBookingTestAllFields</a></td><td rowspan="4">1591941192555</td><td rowspan="4">307</td></tr><tr class="failedeven"><td><a href="#m1">createBookingTestAllFields</a></td></tr><tr class="failedeven"><td><a href="#m2">createBookingTestAllFields</a></td></tr><tr class="failedeven"><td><a href="#m3">createBookingTestAllFields</a></td></tr><tr><th colspan="4">APITest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">tests.TestClass</td><td><a href="#m4">createBookingTestAllFields</a></td><td rowspan="1">1591941191514</td><td rowspan="1">379</td></tr><tr class="passedeven"><td><a href="#m5">testGetBookingAfterUpdate</a></td><td rowspan="1">1591941195164</td><td rowspan="1">298</td></tr><tr class="passedeven"><td><a href="#m6">testUpdateBooking</a></td><td rowspan="6">1591941194205</td><td rowspan="6">312</td></tr><tr class="passedeven"><td><a href="#m7">testUpdateBooking</a></td></tr><tr class="passedeven"><td><a href="#m8">testUpdateBooking</a></td></tr><tr class="passedeven"><td><a href="#m9">testUpdateBooking</a></td></tr><tr class="passedeven"><td><a href="#m10">testUpdateBooking</a></td></tr><tr class="passedeven"><td><a href="#m11">testUpdateBooking</a></td></tr></tbody>
+</table>
+<h2>APITest</h2><h3 id="m0">tests.TestClass#createBookingTestAllFields</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>request.pojos.ReqCreateBooking@2e62ead7</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [500]
+	at tests.TestClass.createBookingTestAllFields(TestClass.java:99)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.TestClass#createBookingTestAllFields</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>request.pojos.ReqCreateBooking@51fc862e</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [500]
+	at tests.TestClass.createBookingTestAllFields(TestClass.java:99)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.TestClass#createBookingTestAllFields</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>request.pojos.ReqCreateBooking@642ee49c</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: a value equal to or greater than &lt;0&gt;
+     got: &lt;-100&gt;
+
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at tests.TestClass.createBookingTestAllFields(TestClass.java:95)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.TestClass#createBookingTestAllFields</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>request.pojos.ReqCreateBooking@5d5a51b1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [500]
+	at tests.TestClass.createBookingTestAllFields(TestClass.java:99)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.TestClass#createBookingTestAllFields</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>request.pojos.ReqCreateBooking@4a44cfc0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.TestClass#testGetBookingAfterUpdate</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>response.pojos.Booking@3a1f2a1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.TestClass#testUpdateBooking</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;depositpaid&quot;:false}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.TestClass#testUpdateBooking</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2020-01-31&quot;,&quot;checkout&quot;:&quot;2020-02-10&quot;}}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.TestClass#testUpdateBooking</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;totalprice&quot;:500}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.TestClass#testUpdateBooking</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;lastname&quot;:&quot;Swan&quot;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.TestClass#testUpdateBooking</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;firstname&quot;:&quot;Robert&quot;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.TestClass#testUpdateBooking</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{&quot;additionalneeds&quot;:&quot;Bonefire&quot;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

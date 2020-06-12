@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllRegression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="APITest(failed)">
+    <classes>
+      <class name="tests.TestClass">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createBookingTestAllFields" invocation-numbers="1 2 3 4"/>
+          <include name="setUpBookingToBeUpdated"/>
+        </methods>
+      </class> <!-- tests.TestClass -->
+    </classes>
+  </test> <!-- APITest(failed) -->
+</suite> <!-- Failed suite [AllRegression] -->
